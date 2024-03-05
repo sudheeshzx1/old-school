@@ -1,0 +1,107 @@
+.FooterContainer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+}
+.FooterContainer h3{
+    color: grey;
+    font-size: 18px;
+}
+.FooterContainer p{
+    font-size: 14px;
+}
+.FooterContainer p:hover{
+    text-decoration: underline;
+    transition: 6 s;
+}
+.mayIHelpu{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.TheCompany{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.storeLocator{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: green;  */
+}
+.OLD{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    max-width: 240px;
+  }
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+    border-radius: 5px;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #ffffff solid;
+
+    border-radius: 5px;
+    background: #e8e8e8;
+    width: 300px;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+  .sites{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .sites svg{
+    color: white;
+    font-size: 30px;
+  }

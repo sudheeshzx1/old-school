@@ -1,0 +1,100 @@
+.watchTexterror {
+  width: 100%;
+  height: 62px;
+  /* background-color: red; */
+}
+.caroimg{
+  width: 100%;
+}
+.Watch-sec-1{
+  width: 100%;
+  height: 70vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.Watch-sec-2{
+  width: 40%;
+  height: 80%;
+  background-color: rgba(0, 128, 0, 0);
+  background-image: url(https://images.pexels.com/photos/14411133/pexels-photo-14411133.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Watch-sec-3{
+  width: 40%;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  font-family: script;
+}
+.watch-text-1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.Watch-Mapping{
+  width: 100%;
+  height: 200vh;
+  /* background-color: red; */
+  display: grid;
+  align-items: center;
+  justify-content:center ;
+  /* background-color: blue; */
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat()
+}
+.Watch-map-container{
+  width: 400px;
+  height: 500px;
+  /* background-color: rgb(160, 84, 84);   */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.Watch-map-container h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  text-transform:uppercase;
+  color: grey;
+  font-weight: 600;
+}
+.Watch-map-container button{
+  width: 200px;
+  border: none;
+  height: 35px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+.map-Watch-img{
+  width: 100%;
+  height: 70%;
+  /* background-color: green; */
+}
+.watch-map-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Watch-map-container button:hover{
+  background-color: black;
+  color: white;
+  animation: shake 200ms 2;
+}

@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Poppins&display=swap");
+@font-face {
+  font-family: script;
+  src: url("../font/Cherolina.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: hp;
+  src: url("../font/TOMMY___.TTF");
+  font-weight: 100;
+}
+.Content_Image {
+  width: 100%;
+  height: 150vh;
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Content-img-1 {
+  width: 45%;
+  height: 90%;
+  /* background-color: green; */
+  background-image: url(../Images//content-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  /* font-family: script; */
+  
+  color: white;
+}
+.Content-img-1 h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: script;
+}
+.Content-img-2 {
+  width: 45%;
+  height: 90%;
+  /* background-color: green; */
+  background-image: url(../Images/content-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  color: white;
+}
+.Content-img-2 h1{
+  font-family: script;
+  font-size: 50px;
+  font-weight: 600;
+}
+.ValantineCollection {
+  width: 100%;
+  height: 150px;
+  /* background-color: violet; */
+  font-family: hp;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 500;
+  gap: 15px;
+}
+.ValantineCollection button {
+  border: none;
+  width: 250px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.ValantineCollection h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.ValantineCollection button:hover {
+  background-color: rgb(81, 76, 76);
+  cursor: pointer;
+}
+.Content-img-containers {
+  width: 100%;
+  height: 200vh;
+  /* background-color: orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Content-img-containers-1 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.Content-img-containers-2 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(50, 178, 50); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.img-1 {
+  width: 45%;
+  height: 95%;
+  background-image: url(../Images/img-3.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.HoverData {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 90%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+}
+.HoverData h1 {
+  font-family: script;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.HoverData button {
+  width: 35%;
+  height: 35px;
+  font-weight: 500;
+  border: none;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+.HoverData button:hover{
+    color: white;
+  background-color: black;
+  transition: 1s;
+}
+.img-1:hover .HoverData {
+  opacity: 1;
+  transition: 1s;
+  
+}
+
+.img-2 {
+  width: 45%;
+  height: 95%;
+  /* background-color: red; */
+  background-image: url(../Images/img-2.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.img-2:hover .HoverData {
+  opacity: 1;
+  transition: 1s;
+}
+.img-3 {
+  width: 45%;
+  height: 95%;
+  /* background-color: rgb(45, 6, 104); */
+  background-image: url(../Images/img-4.webp);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.img-3:hover .HoverData {
+  opacity: 1;
+  transition: 1s;
+}
+.img-4 {
+  width: 45%;
+  height: 95%;
+  /* background-color: rgb(113, 39, 39); */
+  background-image: url(../Images/img-5.webp);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.img-4:hover .HoverData {
+  opacity: 1;
+  transition: 1s;
+}
+.FeaturedContent{
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: hp;
+}
+.FashionShow{
+    width: 100%;
+    height: 90vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.fashionVideo{
+    width: 45%;
+    height: 90%;
+    /* background-color: orange;     */
+}
+.fashionText{
+    width: 45%;
+    height: 90%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    gap: 10px;
+    font-weight: 900;
+
+}
+.fashionText h1{
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px;
+  font-size: 40px;
+  font-weight: 900;
+}
+.fashionVideos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fashionText h1{
+    font-family: hp;
+}
+.fashionText p{
+    font-family: "Poppins", sans-serif;
+}
+.OldSkoolServices{
+    width: 100%;
+    height: 150vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.oldText{
+    width: 100%;
+    height:100px;
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: hp;
+
+}
+.oldText h1{
+  /* font-family: hp; */
+font-size: 30px;
+font-weight: 900;
+font-family: "Poppins", sans-serif;
+}
+.ServiceContainer{
+width: 30%;
+height: 90%;
+background-color: rgb(255, 255, 255);
+}
+.video-1{
+    width: 100%;
+    height: 50%;
+    /* background-color: teal; */
+}
+.videoTexted{
+    width: 100%;
+    height: 45%;
+    /* gap: 15px; */
+    /* background-color: rgba(210, 180, 140, 0); */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    text-align: center;
+}
+.videoTexted button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+cursor: pointer;
+}
+.videoTexted button:hover{
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.videoses1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.videoTexted p{
+    font-size: 17px;
+}

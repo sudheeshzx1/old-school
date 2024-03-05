@@ -1,0 +1,114 @@
+.bagError{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+}
+.BagVideos{
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+}
+.BagVideo{
+    width: 100%;
+    /* height: 100%; */
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+}
+.videoTextCover{
+    position: relative;
+    top: 70%;
+    left: 30%;
+    /* left: 30%; */
+    /* color: white; */
+    font-size: 50px;
+}
+.videoTextCover h2{
+    font-family: script;
+    color: white;
+    font-size: 100px;
+    font-family: 500;
+}
+.bagMapContainer{
+    width: 100%;
+    height: 290vh;
+    /* background-color: orange; */
+    display: grid;
+    align-items: center;
+    justify-content:center ;
+    /* background-color: blue; */
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat();
+
+}
+.BagMapContainer{
+    width: 400px;
+    height: 540px;
+    /* background-color: red; */
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+.bgPtag{
+    font-size: 15px;
+}
+.BagMapImage{
+    width: 100%;
+    height: 80%;
+    /* background-color: rgb(193, 167, 120); */
+}
+.BagMapImage h4{
+    font-size: 10px;
+}
+.Bgimg{
+    width: 400px;
+    height: 400px;
+
+}
+.bgh4{
+    font-size: 15px;  
+    font-weight: 600;
+}
+.mappingText{
+    width: 100%;
+    height: 420px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    text-align: start;
+}
+.radio{
+    width: 60%;
+    height: 70%;
+    /* background-color: orange   ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.radio h3{
+    font-size: 20px ;
+    font-weight: 600;
+}
+.bagMapContainer button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: "Poppins", sans-serif;
+
+}
+.bagMapContainer button:hover{
+    background-color: black;
+    color: white;
+    animation: shake 200ms 2;
+}

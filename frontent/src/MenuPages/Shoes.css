@@ -1,0 +1,97 @@
+.shoesError{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(92, 39, 39);
+}
+.map-data-img{
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+    background-image: url(https://images.pexels.com/photos/10649887/pexels-photo-10649887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.map-data-img h1{
+    font-size: 100px;
+    color: white;
+    font-family: script;
+}
+.map-data-img p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+.collection-shoes{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+.collection-shoes h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.map-Shoes-container{
+    width: 100%;
+    height: 300vh;
+    /* background-color: yellow; */
+    display: grid;
+    align-items: center;
+    justify-content:center ;
+    /* background-color: blue; */
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat();
+}
+.map-shoes{
+    width: 400px;
+    height:550px ;
+    /* background-color: rgb(40, 115, 158); */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.map-shoes p {
+    color: rgb(60, 55, 55);
+}
+.map-shoes h5{
+    color: rgb(89, 78, 78);
+    font-size: medium;
+}
+.map-shoes-img-button{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+.map-shoes-img-button:hover{
+    background-color: black;
+    color: white;
+    animation: shake 200ms 2;
+}
+.map-shoes-img{
+    width: 100%;
+height: 70%;
+background-color: greenyellow;
+}
+.map-shoes-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
